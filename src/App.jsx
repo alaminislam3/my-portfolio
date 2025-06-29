@@ -1,19 +1,18 @@
-import './App.css'
-import HeroSection from './Component/HeroSection'
-import Navbar from './Component/Navbar'
-import Skills from './Component/Skills'
+import "./App.css";
+import ContactUs from "./Component/ContactUs";
+import HeroSection from "./Component/HeroSection";
+import Navbar from "./Component/Navbar";
+import Skills from "./Component/Skills";
 
 function App() {
-  
-
   return (
     <>
-    <Navbar></Navbar>
+      <Navbar></Navbar>
       <HeroSection> </HeroSection>
       <Skills></Skills>
-      
+      <ContactUs></ContactUs>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

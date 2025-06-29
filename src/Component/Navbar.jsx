@@ -22,14 +22,22 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between max-w-[1200px] mx-auto px-4 py-4">
         
-        <div className="inline-block  px-4 py-2 ">
-  <h1 className="text-4xl font-extrabold text-[#FD6E0A] animate-pulse tracking-widest select-none">
+        <div className="inline-block  px-4 py-2  ">
+  <h1
+    className="text-4xl font-extrabold text-[#FD6E0A] tracking-widest select-none animate-spin"
+    style={{ animationDuration: "6s" }}
+  >
     &lt;/&gt;
   </h1>
 </div>
 
 
+
+
         <ul className="flex items-center space-x-8">
+          <li>
+            <a className="text-[#474747] hover:text-primary transition" href="#">Contact</a>
+          </li>
           <li>
             <a className="text-[#474747] hover:text-primary transition" href="#">skills</a>
           </li>
