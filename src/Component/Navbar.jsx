@@ -1,5 +1,7 @@
 // src/components/Navbar.jsx
 import { useEffect, useState } from "react";
+import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,23 +32,44 @@ const Navbar = () => {
     &lt;/&gt;
   </h1>
 </div>
+{/* here it is  */}
+      
 
 
 
 
         <ul className="flex items-center space-x-8">
-          <li>
-            <a className="text-[#474747] hover:text-primary transition" href="#">Contact</a>
-          </li>
-          <li>
-            <a className="text-[#474747] hover:text-primary transition" href="#">skills</a>
-          </li>
-          <li>
-            <a className="text-[#474747] hover:text-primary transition" href="#">Portfolio</a>
-          </li>
-          <li>
-            <a className="text-[#474747] hover:text-primary transition" href="#">Blog</a>
-          </li>
+          
+
+      <Link
+        to="skill"
+        smooth={true}
+        duration={500}
+        className="cursor-pointer text-black"
+      >
+        Skills
+      </Link>
+
+      <Link
+        to="project"
+        smooth={true}
+        duration={500}
+        className="cursor-pointer text-black"
+      >
+        Projects
+      </Link>
+
+      <Link
+        to="contact"
+        smooth={true}
+        duration={500}
+        className="cursor-pointer text-black"
+      >
+        Contact
+      </Link>
+
+
+
           <li>
             <button className="btn bg-[#FD6E0A] text-white">Resume</button>
           </li>

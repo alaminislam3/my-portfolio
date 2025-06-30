@@ -21,7 +21,7 @@ const HeroSection = () => {
           {/* Social Icons */}
           <div className="mt-6 flex gap-6 justify-center lg:justify-start text-3xl">
             <a
-              href="https://linkedin.com/in/your-username"
+              href="linkedin.com/in/alaminislam1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#0077b5] hover:scale-110 transition-transform"
@@ -30,7 +30,7 @@ const HeroSection = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/alaminislam3"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:scale-110 transition-transform"
@@ -39,7 +39,7 @@ const HeroSection = () => {
               <FaGithub />
             </a>
             <a
-              href="https://twitter.com/your-username"
+              href="https://x.com/Drcryptu"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:scale-110 transition-transform"

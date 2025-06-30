@@ -6,6 +6,7 @@ import {
   FaMapMarkerAlt,
   FaGithub,
   FaLinkedin,
+  FaTwitter,
 } from "react-icons/fa";
 // import { Link} from "react-router";
 // import { SiTwitter } from "react-icons/si";
@@ -21,7 +22,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="px-6 py-16 lg:px-24 bg-[#d4a381] text-[#333]">
+    <section id="contact" className="px-6 py-16 lg:px-24 bg-[#d4a381] text-[#333]">
       <h2 className="text-4xl font-bold text-center mb-12">
         Let’s Work Together
       </h2>
@@ -29,35 +30,44 @@ const ContactUs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         {/* Left: Contact Info */}
         <div className="space-y-6">
-          
-            <div className="flex items-center gap-4 text-lg">
-              <FaWhatsapp className="text-green-500 text-2xl" />
-              <span>01747190824</span>
-            </div>
-          
+          <div className="flex items-center gap-4 text-lg">
+            <FaWhatsapp className="text-green-500 text-2xl" />
+            <span>01747190824</span>
+          </div>
+
           <div className="flex items-center gap-4 text-lg">
             <FaMapMarkerAlt className="text-red-500 text-2xl" />
             <span>Location: Dhaka, BD</span>
           </div>
 
           <div className="flex gap-6 text-3xl mt-6">
-            <a
-              href="https://linkedin.com/in/yourprofile"
+           <a
+              href="linkedin.com/in/alaminislam1"
               target="_blank"
               rel="noopener noreferrer"
+              className="text-[#0077b5] hover:scale-110 transition-transform"
+              aria-label="LinkedIn"
             >
-              <FaLinkedin className="hover:scale-110 transition text-[#0077b5]" />
+              <FaLinkedin />
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/alaminislam3"
               target="_blank"
               rel="noopener noreferrer"
+              className="text-black hover:scale-110 transition-transform"
+              aria-label="GitHub"
             >
-              <FaGithub className="hover:scale-110 transition text-black" />
+              <FaGithub />
             </a>
-            {/* <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
-              <SiTwitter className="hover:scale-110 transition text-blue-500" />
-            </a> */}
+            <a
+              href="https://x.com/Drcryptu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black hover:scale-110 transition-transform"
+              aria-label="Twitter"
+            >
+              <FaTwitter />
+            </a>
           </div>
         </div>
 
