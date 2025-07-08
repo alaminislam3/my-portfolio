@@ -8,15 +8,20 @@ const HeroSection = () => {
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center px-[40px] lg:px-[150px] gap-12">
         {/* Text Content */}
         <div className="max-w-xl text-center lg:text-left">
-          <h4 className="text-[32px] lg:text-[45px] font-bold text-[#474747]">Hi, I am</h4>
-          <h1 className="text-[50px] lg:text-[85px] font-extrabold">Alamin Islam</h1>
-          <p className="text-[20px] font-semibold text-[#444] mb-2">MERN Stack Developer</p>
-          <p className="text-[#221f1f] mt-4">
-            Every conversation feels natural, every collaboration smooth — like we're building something together.
-            There’s a quiet joy in turning shared ideas into something that feels real.
+          <h4 className="text-[32px] lg:text-[45px] font-bold text-[#474747]">
+            Hi, I am
+          </h4>
+          <h1 className="text-[50px] lg:text-[85px] font-extrabold">
+            Alamin Islam
+          </h1>
+          <p className="text-[20px] font-semibold text-[#444] mb-2">
+            MERN Stack Developer
           </p>
-
-          
+          <p className="text-[#221f1f] mt-4">
+            Every conversation feels natural, every collaboration smooth — like
+            we're building something together. There’s a quiet joy in turning
+            shared ideas into something that feels real.
+          </p>
 
           {/* Social Icons */}
           <div className="mt-6 flex gap-6 justify-center lg:justify-start text-3xl">
@@ -49,10 +54,17 @@ const HeroSection = () => {
             </a>
           </div>
           <div className="mt-6 flex flex-wrap gap-4 justify-center lg:justify-start">
-            <button className="btn bg-[#FD6E0A] text-white text-lg">
-              <i className="fa-solid fa-download fa-bounce mr-2 text-green-900"></i>
-              Download CV
-            </button>
+            <a
+              href="https://drive.google.com/file/d/17BdY17rCX6JoP40uQNLxUu5aulGISe-f/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn bg-[#FD6E0A] text-white text-lg">
+                <i className="fa-solid fa-download fa-bounce mr-2 text-green-900"></i>
+                Download CV
+              </button>
+            </a>
+
             <button className="btn border-2 border-[#FD6E0A] text-[#FD6E0A] bg-transparent text-lg">
               <i className="fa-solid fa-phone fa-fade mr-2"></i>
               Contact
@@ -70,7 +82,6 @@ const HeroSection = () => {
             className="object-cover"
           />
         </div>
-      
       </div>
     </header>
   );
