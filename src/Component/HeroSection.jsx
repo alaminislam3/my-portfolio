@@ -26,7 +26,7 @@ const HeroSection = () => {
           {/* Social Icons */}
           <div className="mt-6 flex gap-6 justify-center lg:justify-start text-3xl">
             <a
-              href="linkedin.com/in/alaminislam1"
+              href="https://www.linkedin.com/in/alaminislam1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#0077b5] hover:scale-110 transition-transform"
@@ -34,6 +34,7 @@ const HeroSection = () => {
             >
               <FaLinkedin />
             </a>
+
             <a
               href="https://github.com/alaminislam3"
               target="_blank"
