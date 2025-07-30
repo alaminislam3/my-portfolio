@@ -22,7 +22,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skill" className="py-16 bg-[#d9cabf] ">
+    <section id="skill" className="py-12 sm:py-16 lg:py-24 bg-[#d9cabf] ">
       <h2 className="text-3xl font-bold text-center md:pt-15 mb-10 text-neutral">Tech Stack</h2>
 
       <Marquee direction="right" speed={50} gradient={false}>
