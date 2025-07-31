@@ -3,14 +3,6 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "BillSwifft",
-    description: "BillSwift.com is a modern web application designed to simplify bill management and payments for users. ",
-    image: "https://i.ibb.co/DgRvFsqr/billshift-ss.png",
-    live: "https://billswift-1132b.web.app",
-    github: "https://github.com/alaminislam3/BillSwift",
-    details: "#",
-  },
-  {
     title: "Leaftrack",
     description: "LeafTrack is a modern web application designed to help plant enthusiasts manage and track their plants with ease.",
     image: "https://i.ibb.co/prsJG5Vf/leaf-Track-ss-new.png",
@@ -24,6 +16,14 @@ const projects = [
     image: "https://i.ibb.co/hJhrwdyB/learnify-ss.png",
     live: "https://learnify-500d1.web.app",
     github: "https://github.com/alaminislam3/Learnify",
+    details: "#",
+  },
+  {
+    title: "BillSwifft",
+    description: "BillSwift.com is a modern web application designed to simplify bill management and payments for users. ",
+    image: "https://i.ibb.co/DgRvFsqr/billshift-ss.png",
+    live: "https://billswift-1132b.web.app",
+    github: "https://github.com/alaminislam3/BillSwift",
     details: "#",
   },
 ];
