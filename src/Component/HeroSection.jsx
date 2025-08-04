@@ -56,7 +56,7 @@ const HeroSection = () => {
           </div>
           <div className="mt-6 flex flex-wrap gap-4 justify-center lg:justify-start">
             <a
-              href="https://drive.google.com/file/d/17BdY17rCX6JoP40uQNLxUu5aulGISe-f/view?usp=sharing"
+              href="https://drive.google.com/file/d/1TcsHVXij52Zm1OBQIg5p2f1lPJfA7df3/view"
               target="_blank"
               rel="noopener noreferrer"
             >
