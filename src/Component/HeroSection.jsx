@@ -18,9 +18,11 @@ const HeroSection = () => {
             MERN Stack Developer
           </p>
           <p className="text-[#221f1f] mt-4">
-            Every conversation feels natural, every collaboration smooth — like
-            we're building something together. There’s a quiet joy in turning
-            shared ideas into something that feels real.
+            I create fast and user-friendly websites using HTML, CSS,
+            JavaScript, and React. With my past customer service experience, I
+            know how to understand people’s needs and build solutions they enjoy
+            using. Let’s build something so good, your users will never want to
+            leave.
           </p>
 
           {/* Social Icons */}
