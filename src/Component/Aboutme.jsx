@@ -2,9 +2,9 @@ import React from 'react';
 
 const Aboutme = () => {
   return (
-    <div id="aboutme" className="bg-[#d9cabf] py-10 px-6 sm:px-10 lg:px-[150px]">
+    <div id="aboutme" className="bg-[#d9cabf] py-12 sm:py-16 lg:py-24 px-6 sm:px-10 lg:px-[150px]">
       {/* Main Title at top center */}
-      <h1 className="text-4xl sm:text-5xl font-extrabold text-center text-black mb-12">
+      <h1 className="text-3xl sm:text-5xl font-extrabold text-center text-black mb-12">
         Story About Me
       </h1>
 
