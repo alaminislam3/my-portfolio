@@ -13,7 +13,7 @@ const Aboutme = () => {
         {/* Image container */}
         <div className="w-full lg:w-[40%] flex justify-center min-w-0">
           <img
-            src="./charlie & katie are.png"
+            src="./charlie & katie aree.png"
             alt="Story About Me"
             className="w-full h-auto rounded-lg shadow-lg"
           />
