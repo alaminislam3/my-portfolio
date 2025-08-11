@@ -128,17 +128,30 @@ const Navbar = () => {
                 Projects
               </Link>
             </li>
-            <a
-              href="https://api.whatsapp.com/send?phone=8801747190824"
-              target="_blank"
-              onClick={closeMenu}
-              className="cursor-pointer text-black"
-              rel="noopener noreferrer"
-            >
-              <button className="btn bg-[#FD6E0A] text-white px-4 py-2 rounded">
-                Resume
-              </button>
-            </a>
+            <li>
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                onClick={closeMenu}
+                className="cursor-pointer text-black"
+              >
+                contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="aboutme"
+                smooth={true}
+                duration={500}
+                onClick={closeMenu}
+                className="cursor-pointer text-black"
+              >
+                About me 
+              </Link>
+            </li>
+           
+           
 
             <li>
               <button className="btn bg-[#FD6E0A] text-white px-4 py-2 rounded">

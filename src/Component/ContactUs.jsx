@@ -1,5 +1,3 @@
-// src/components/ContactUs.jsx
-
 import React, { useState } from "react";
 import {
   FaWhatsapp,
@@ -22,7 +20,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section id="contact" className="px-6 py-16py-12 sm:py-16 lg:py-24 lg:px-24 bg-[#d4a381] text-[#333]">
+    <section id="contact" className="px-6 py-16py-12 pt-5 sm:py-16 lg:py-24 lg:px-24 bg-[#d4a381] text-[#333]">
       <h2 className="text-4xl font-bold text-center mb-12">
         Let’s Work Together
       </h2>
