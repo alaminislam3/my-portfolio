@@ -73,6 +73,16 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+          <li>
+            <Link
+              to="aboutme"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-black"
+            >
+              About me
+            </Link>
+          </li>
           <a
             href="https://docs.google.com/document/d/1jZhinOQ_etiYA7yfQ6yyEWjNo8vC7K7smSboLFAzVlU/edit?usp=drive_link"
             target="_blank"

@@ -1,4 +1,5 @@
 import "./App.css";
+import Aboutme from "./Component/Aboutme";
 import ContactUs from "./Component/ContactUs";
 import HeroSection from "./Component/HeroSection";
 import Navbar from "./Component/Navbar";
@@ -11,6 +12,7 @@ function App() {
       <Navbar></Navbar>
       <HeroSection> </HeroSection>
       <Skills></Skills>
+      <Aboutme></Aboutme>
       <ProjectSection></ProjectSection>
       <ContactUs></ContactUs>
     </>
