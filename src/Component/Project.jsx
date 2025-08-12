@@ -30,61 +30,62 @@ const projects = [
 
 const Project = () => {
   return (
-    <section id="project" className="bg-[#d9cabf]  px-6 py-12 sm:py-16 lg:py-24 lg:px-24 text-[#333]">
-      <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+    <section id="project" className="bg-[#d9cabf]  px-6 py-12 sm:py-16 lg:py-24 lg:px-24">
+  <h2 className="text-5xl font-extrabold text-black text-center mb-12">My Projects</h2>
 
-      <div className="space-y-12">
-        {projects.map((project, index) => (
-          <div
-            key={index}
-            className="flex flex-col p-10 lg:flex-row items-center bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300"
-          >
-            {/* Image */}
-            <div className="w-full lg:w-1/2">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full max-w-md rounded-lg shadow-md transform transition-transform duration-500 hover:scale-110 object-cover"
-              />
-            </div>
+  <div className="space-y-12">
+    {projects.map((project, index) => (
+      <div
+        key={index}
+        className="flex flex-col p-10 lg:flex-row items-center bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300"
+      >
+        {/* Image */}
+        <div className="w-full lg:w-1/2">
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-full max-w-md rounded-lg shadow-md transform transition-transform duration-500 hover:scale-110 object-cover"
+          />
+        </div>
 
-            {/* Project Info */}
-            <div className="w-full lg:w-1/2 p-10 flex flex-col justify-between">
-              <div>
-                <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-sm text-gray-600">{project.description}</p>
-              </div>
-
-              {/* Buttons */}
-              <div className="mt-6 flex gap-4 flex-wrap justify-center lg:justify-start">
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn bg-[#FD6E0A] text-white"
-                >
-                  Live Site
-                </a>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn bg-[#FD6E0A] text-white flex items-center gap-2"
-                >
-                  <FaGithub className="text-xl" /> GitHub
-                </a>
-                <a
-                  href={project.details}
-                  className="btn bg-[#FD6E0A] text-white"
-                >
-                  Details
-                </a>
-              </div>
-            </div>
+        {/* Project Info */}
+        <div className="w-full lg:w-1/2 p-10 flex flex-col justify-between">
+          <div>
+            <h3 className="text-2xl font-semibold mb-2 text-black">{project.title}</h3>
+            <p className="text-sm text-gray-600">{project.description}</p>
           </div>
-        ))}
+
+          {/* Buttons */}
+          <div className="mt-6 flex gap-4 flex-wrap justify-center lg:justify-start">
+            <a
+              href={project.live}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn bg-[#FD6E0A] text-white"
+            >
+              Live Site
+            </a>
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn bg-[#FD6E0A] text-white flex items-center gap-2"
+            >
+              <FaGithub className="text-xl" /> GitHub
+            </a>
+            <a
+              href={project.details}
+              className="btn bg-[#FD6E0A] text-white"
+            >
+              Details
+            </a>
+          </div>
+        </div>
       </div>
-    </section>
+    ))}
+  </div>
+</section>
+
   );
 };
 
