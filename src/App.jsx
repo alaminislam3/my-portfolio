@@ -1,24 +1,43 @@
 import "./App.css";
+import { useEffect } from "react";
+import Lenis from "@studio-freight/lenis";
+
+import Navbar from "./Component/Navbar";
+import HeroSection from "./Component/HeroSection";
+import Skills from "./Component/Skills";
 import Aboutme from "./Component/Aboutme";
-import ContactUs from "./Component/ContactUs";
 import Education from "./Component/Education";
 import Experience from "./Component/Exprience";
-import HeroSection from "./Component/HeroSection";
-import Navbar from "./Component/Navbar";
 import ProjectSection from "./Component/Project";
-import Skills from "./Component/Skills";
+import ContactUs from "./Component/ContactUs";
 
 function App() {
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 0.5,  // কম duration = fast scroll
+      easing: (t) => t, // linear easing
+      smooth: true,
+      lerp: 0.05, // lower lerp = faster response
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }, []);
+
   return (
     <>
-      <Navbar></Navbar>
-      <HeroSection> </HeroSection>
-      <Skills></Skills>
-      <Aboutme></Aboutme>
-      <Education></Education>
-      <Experience></Experience>
-      <ProjectSection></ProjectSection>
-      <ContactUs></ContactUs>
+      <Navbar />
+      <HeroSection />
+      <Skills />
+      <Aboutme />
+      <Education />
+      <Experience />
+      <ProjectSection />
+      <ContactUs />
     </>
   );
 }
