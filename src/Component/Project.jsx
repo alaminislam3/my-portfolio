@@ -3,6 +3,14 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
+    title: "Looplate",
+    description: "A MERN Stack-powered platform that connects Restaurants, Charities, and Users to reduce local food waste by enabling food donations and pickups in real-time.",
+    image: "https://i.ibb.co.com/kVJkCCg8/Screenshot-196.png",
+    live: "https://looplate.netlify.app/",
+    github: "https://github.com/alaminislam3/looplate-client",
+    details: "#",
+  },
+  {
     title: "Leaftrack",
     description: "LeafTrack is a modern web application designed to help plant enthusiasts manage and track their plants with ease.",
     image: "https://i.ibb.co/prsJG5Vf/leaf-Track-ss-new.png",
@@ -18,19 +26,12 @@ const projects = [
     github: "https://github.com/alaminislam3/Learnify",
     details: "#",
   },
-  {
-    title: "BillSwifft",
-    description: "BillSwift.com is a modern web application designed to simplify bill management and payments for users. ",
-    image: "https://i.ibb.co/DgRvFsqr/billshift-ss.png",
-    live: "https://billswift-1132b.web.app",
-    github: "https://github.com/alaminislam3/BillSwift",
-    details: "#",
-  },
-];
 
+];
+/* px-6  */
 const Project = () => {
   return (
-    <section id="project" className="bg-[#d9cabf]  px-6 py-12 sm:py-16 lg:py-24 lg:px-24">
+    <section id="project" className="bg-[#d9cabf] px-6 py-12 sm:px-10 lg:px-[150px] sm:py-16 lg:py-24">
   <h2 className="text-5xl font-extrabold text-black text-center mb-12">My Projects</h2>
 
   <div className="space-y-12">
