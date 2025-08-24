@@ -8,7 +8,7 @@ const projects = [
     image: "https://i.ibb.co.com/kVJkCCg8/Screenshot-196.png",
     live: "https://looplate.netlify.app/",
     github: "https://github.com/alaminislam3/looplate-client",
-    details: "#",
+    
   },
   {
     title: "Leaftrack",
@@ -16,7 +16,7 @@ const projects = [
     image: "https://i.ibb.co/prsJG5Vf/leaf-Track-ss-new.png",
     live: "https://practice-firebase-auth-9e8cd.web.app",
     github: "https://github.com/alaminislam3/LeafTrack",
-    details: "#",
+    
   },
   {
     title: "Learnify",
@@ -24,7 +24,7 @@ const projects = [
     image: "https://i.ibb.co/hJhrwdyB/learnify-ss.png",
     live: "https://learnify-500d1.web.app",
     github: "https://github.com/alaminislam3/Learnify",
-    details: "#",
+    
   },
 
 ];
@@ -51,7 +51,7 @@ const Project = () => {
 
         {/* Project Info */}
         <div className="w-full lg:w-1/2 p-10 flex flex-col justify-between">
-          <div>
+          <div className="">
             <h3 className="text-2xl font-semibold mb-2 text-black">{project.title}</h3>
             <p className="text-sm text-gray-600">{project.description}</p>
           </div>
@@ -74,12 +74,7 @@ const Project = () => {
             >
               <FaGithub className="text-xl" /> GitHub
             </a>
-            <a
-              href={project.details}
-              className="btn bg-[#FD6E0A] text-white"
-            >
-              Details
-            </a>
+           
           </div>
         </div>
       </div>
